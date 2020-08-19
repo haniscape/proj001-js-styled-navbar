@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+nav {
+  min-height: 10vh;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1,
+nav ul {
+  font-size: 1.5rem;
+  flex: 1;
+  align-items: baseline;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2 {
+  font-size: 5rem;
+  color: #000;
+}
+
+.home {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.products {
+    background-image: linear-gradient(to right, #20E2D7 0%, #F9FEA5 100%);
+}
+
+.contact {
+    background-image: linear-gradient(to right, #F578DC 0%, #B6CEE8 100%);
+}
+
+
+.bubble {
+    position: absolute;
+    z-index: -2;
+    background-image: linear-gradient(to right, #20E2D7 0%, #F9FEA5 100%);
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    transform: scale(2);
+    transition: all 0.3;
+}

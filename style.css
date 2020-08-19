@@ -71,8 +71,7 @@ section h2 {
     position: absolute;
     z-index: -2;
     background-image: linear-gradient(to right, #20E2D7 0%, #F9FEA5 100%);
-    border: 1px solid #ebebeb;
-    border-radius: 5px;
+box-shadow: #F578DC;    border-radius: 5px;
     transform: scale(2);
-    transition: all 0.3;
+    transition: all 0.5s ease;
 }
